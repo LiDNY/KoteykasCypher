@@ -124,3 +124,10 @@ function decypher() {
     }
     document.getElementById('outputText').value = outputText;
 }
+
+function copyText() {
+    const outputText = document.getElementById('outputText');
+    outputText.select();
+    document.execCommand('copy');
+    alert('Cypher copied to clipboard!');
+}
