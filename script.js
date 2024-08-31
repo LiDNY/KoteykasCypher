@@ -117,13 +117,10 @@ function cypher() {
 function decypher() {
     const inputText = document.getElementById('inputText').value;
     let outputText = '';
-    const pattern = /(:3|:D|:P|:O|:\(|:\))/g;
-    const chunks = inputText.match(pattern);
-    if (chunks) {
-        for (let i = 0; i < chunks.length; i += 3) {
-            const chunk = chunks.slice(i, i + 3).join('');
-            outputText += decipherMap[chunk] || '?';
-        }
+    const pattern = /(:3:3:3|:3:3:D|:3:3:P|:3:3:O|:3:D:3|:3:D:D|:3:D:P|:3:D:O|:3:P:3|:3:P:D|:3:P:P|:3:P:O|:3:O:3|:3:O:D|:3:O:P|:3:O:O|:D:3:3|:D:3:D|:D:3:P|:D:3:O|:D:D:3|:D:D:D|:D:D:P|:D:D:O|:D:P:3|:D:P:D|:D:P:P|:D:P:O|:D:O:3|:D:O:D|:D:O:P|:D:O:O|:P:3:3|:P:3:D|:P:3:P|:P:3:O|:P:D:3|:P:D:D|:P:D:P|:P:D:O|:P:P:3|:P:P:D|:P:P:P|:P:P:O|:P:O:3|:P:O:D|:P:O:P|:P:O:O|:O:3:3|:O:3:D|:O:3:P|:O:3:O|:O:D:3|:O:D:D|:O:D:P|:O:D:O|:O:P:3|:O:P:D|:O:P:P|:O:P:O|:O:O:3|:O:O:D|:O:O:P|:O:O:O|:3:3:3:3|:D:D:D:D|:3:3:D|:3:D:3|:3:D:D|:3:D:P|:3:D:O|:3:P:3|:3:P:D|:3:P:P|:3:P:O|:3:O:3|:3:O:D|:3:O:P|:3:O:O|:D:3:3|:D:3:D|:D:3:P|:D:3:O|:D:D:3|:D:D:D|:D:D:P|:D:D:O|:D:P:3|:D:P:D|:D:P:P|:D:P:O|:D:O:3|:D:O:D|:D:O:P|:D:O:O|:P:3:3|:P:3:D|:P:3:P|:P:3:O|:P:D:3|:P:D:D|:P:D:P|:P:D:O|:P:P:3|:P:P:D|:P:P:P|:P:P:O|:P:O:3|:P:O:D|:P:O:P|:P:O:O|:O:3:3|:O:3:D|:O:3:P|:O:3:O|:O:D:3|:O:D:D|:O:D:P|:O:D:O|:O:P:3|:O:P:D|:O:P:P|:O:P:O|:O:O:3|:O:O:D|:O:O:P|:O:O:O)/g;
+    let match;
+    while ((match = pattern.exec(inputText)) !== null) {
+        outputText += decipherMap[match[0]] || '?';
     }
     document.getElementById('outputText').value = outputText;
 }
