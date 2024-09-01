@@ -1,16 +1,16 @@
 # Don't bother downloading, Just go [Here](https://sonicpikalidny.github.io/KoteykasCypher)
 
-Here's some info on this:
+# Here's some info on this:
 
 I made this while being bored, so don't expect updates/bugfixes
 
 it uses these 4 emoticons to encode it: :3, :P, :D and :O
 
-How it works:
+# How it works:
 
-it just finds a symbol in the js corresponding to the ones u wrote
+it just finds a symbol in the js corresponding to the ones u wrote, really simple, meaning its easy to add more languages, symbols and other stuff
 
-Helping to add more symbols
+# Helping to add more symbols:
 
 if you want to add more symbols either:
 
@@ -18,4 +18,4 @@ if you want to add more symbols either:
 
 2. Fork this repo and change it in ur repo
 
-3. Download the [.js file](https://github.com/SonicPikaLiDNY/KoteykasCypher/blob/main/script.js) and change it there, then, send it to our [discord](https://dsc.gg/lidny)
+3. Download the [.js file](https://github.com/SonicPikaLiDNY/KoteykasCypher/blob/main/script.js) and change it on ur device, then, send it to my [discord](https://dsc.gg/lidny) and i will add it to the website and credit you
