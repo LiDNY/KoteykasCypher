@@ -1,5 +1,10 @@
 # Don't bother reading this if u just want to encode/decode it, Just go [Here](https://sonicpikalidny.github.io/KoteykasCypher) and use it
 
+# Screenshots:
+
+Screenshot of it on its Home Page
+![image](https://github.com/user-attachments/assets/0c359004-8068-45f7-b65d-9a13a56189c4)
+
 # Some things to note:
 
 I made this while being bored, so don't expect updates/bugfixes
