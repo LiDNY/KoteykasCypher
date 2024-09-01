@@ -89,7 +89,7 @@ function decypher() {
     if (chunks) {
         for (let i = 0; i < chunks.length; i += 3) {
             const chunk = chunks.slice(i, i + 3).join('');
-            outputText += decipherMap[chunk] || '?';
+            outputText += decipherMap[chunk] || 'not defined';
         }
     }
     document.getElementById('outputText').value = outputText;
