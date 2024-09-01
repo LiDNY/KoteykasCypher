@@ -20,9 +20,9 @@ it just finds a symbol in the js corresponding to the ones u wrote, really simpl
 
 if you want to add more symbols either:
 
-1. Download it [here](https://github.com/SonicPikaLiDNY/KoteykasCypher/archive/refs/heads/main.zip) and change the js
+1. Download it [here](https://github.com/SonicPikaLiDNY/KoteykasCypher/archive/refs/heads/main.zip) and change the js, and host it urself
 
-2. Fork this repo and change it in ur repo
+2. Fork this repo and change it in ur repo, then host using GitHub pages
 
 3. Download the [.js file](https://github.com/SonicPikaLiDNY/KoteykasCypher/blob/main/script.js) and change it on ur device, then, send it to my [discord](https://dsc.gg/lidny) and i will add it to the website and credit you
 
