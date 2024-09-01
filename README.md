@@ -1,4 +1,4 @@
-# Don't bother downloading, Just go [Here](https://sonicpikalidny.github.io/KoteykasCypher)
+# Don't bother reading this if u just want to encode/decode it, Just go [Here](https://sonicpikalidny.github.io/KoteykasCypher) and use it
 
 # Here's some info on this:
 
