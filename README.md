@@ -22,7 +22,7 @@ if you want to add more symbols either:
 
 1. Download it [here](https://github.com/SonicPikaLiDNY/KoteykasCypher/archive/refs/heads/main.zip) and change the js, and host it urself
 
-2. [Fork](https://github.com/SonicPikaLiDNY/KoteykasCypher/fork) this repo and change it in ur repo, then host using GitHub pages
+2. [Fork](https://github.com/SonicPikaLiDNY/KoteykasCypher/fork) this repo and change it in ur repo, then host using GitHub pages (Mention me in ur readme or somewhere in the credits, thanks :3)
 
 3. Download the [.js file](https://github.com/SonicPikaLiDNY/KoteykasCypher/blob/main/script.js) and change it on ur device, then, send it to my [discord](https://dsc.gg/lidny) and i will add it to the website and credit you
 
