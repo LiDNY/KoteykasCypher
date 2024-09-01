@@ -1,6 +1,6 @@
 # Don't bother reading this if u just want to encode/decode it, Just go [Here](https://sonicpikalidny.github.io/KoteykasCypher) and use it
 
-# Here's some info on this:
+# Some things to note:
 
 I made this while being bored, so don't expect updates/bugfixes
 
@@ -19,3 +19,13 @@ if you want to add more symbols either:
 2. Fork this repo and change it in ur repo
 
 3. Download the [.js file](https://github.com/SonicPikaLiDNY/KoteykasCypher/blob/main/script.js) and change it on ur device, then, send it to my [discord](https://dsc.gg/lidny) and i will add it to the website and credit you
+
+# Project info:
+
+Requirements: A browser (Chrome around 50, FireFox also around 50)
+
+Lastest Version: v1.0
+
+Development: Semi-Active
+
+Developers: [SonicPika](https://github.com/SonicPikaLiDNY/)
