@@ -36,4 +36,4 @@ Development: Semi-Active
 
 Developers: [SonicPika](https://github.com/SonicPikaLiDNY/)
 
-MDL Version [here (place holder for now)](https://example.com/)
+MDL Version [here](https://github.com/SonicPikaLiDNY/KoteykasCypherMDL) or the hosted website [here](https://sonicpikalidny.github.io/KoteykasCypherMDL/)
